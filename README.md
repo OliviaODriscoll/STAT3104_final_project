@@ -4,9 +4,9 @@ This project implements a Bayesian statistical analysis to predict Radiation-Ind
 
 ## Overview
 
-This project implements **advanced Bayesian methods** for predicting RILD, including:
+This project implements **Bayesian methods** for predicting RILD, including:
 
-### Core Methods (Advanced):
+### Core Methods:
 - **Fully Bayesian missing data handling** (within-model imputation using Stan)
 - **Multilevel/hierarchical models** with random intercepts and slopes
 - **Bayesian model averaging** and ensemble predictions
@@ -163,19 +163,6 @@ This project demonstrates **advanced Bayesian methods** suitable for graduate-le
 - Multiple models compared using LOO-CV and information criteria
 - Random effects properly account for diagnosis-specific heterogeneity
 
-## Troubleshooting
-
-If you encounter issues:
-
-1. **RStan installation problems:** Follow the [RStan installation guide](https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started)
-
-2. **Memory issues:** Reduce the number of iterations or chains in the `brm()` calls
-
-3. **Convergence warnings:** Increase `adapt_delta` or `max_treedepth` in the `control` argument
-
-4. **Missing packages:** Install any missing packages using `install.packages()`
-
-## Citation
 
 This analysis was developed for an Applied Bayesian Analysis course project.
 
